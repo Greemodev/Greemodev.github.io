@@ -111,7 +111,6 @@ nav a:hover{
 }
 
 .profile-social-div a:hover{
- 
     color: #09f;
     font-size: 10px;
     transition: 0.10s;
@@ -197,12 +196,15 @@ nav a:hover{
 }
 
 .footer-div a:hover {
-    border: 2px solid #09f;
     color: #09f;
-    font-size: 20px;
-    transition: 0.20s;
+    font-size: 10px;
+    transition: 0.10s;
 }
 
 .footer-div a svg{
     fill: #09f;
+}
+
+.footer-div a svg:hover{
+    fill: #fff;
 }
