@@ -72,7 +72,6 @@ nav a:hover{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #010001;
     color: #fff;
     text-align: center;
     
@@ -106,18 +105,26 @@ nav a:hover{
 }
 
 .profile-social-div a {
-    border: 1px solid #fff;
     border-radius: 10%;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 .profile-social-div a:hover{
-    border: 2px solid #09f;
+ 
     color: #09f;
-    font-size: 20px;
-    transition: 0.20s;
+    font-size: 10px;
+    transition: 0.10s;
 }
+
+.profile-social-div a svg{
+    fill: #09f;
+}
+
+.profile-social-div a svg:hover{
+    fill: #fff;
+}
+
 
 
 /*Projects Section*/
@@ -184,10 +191,9 @@ nav a:hover{
 }
 
 .footer-div a {
-    border: 1px solid #fff;
     border-radius: 10%;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 .footer-div a:hover {
@@ -195,4 +201,8 @@ nav a:hover{
     color: #09f;
     font-size: 20px;
     transition: 0.20s;
+}
+
+.footer-div a svg{
+    fill: #09f;
 }
