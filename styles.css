@@ -18,7 +18,7 @@ body{
 nav{
     border-bottom: 1px solid #09f;
     width: 100%;
-    height: 80px;
+    height: 78px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -69,11 +69,17 @@ nav a:hover{
     color: #000;
 }
 
+.logo{
+    width: 80px;
+}
+
 
 /*section h1, h2{
     text-align: center;
     margin: 100px 0px;
 }*/
+
+
 
 
 /*Profile Section*/
@@ -85,7 +91,7 @@ nav a:hover{
     align-items: center;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height:100vh;
     color: #fff;
     text-align: center;
     
@@ -139,7 +145,7 @@ nav a:hover{
 .profile-about-a{
     text-decoration: none;
     border-radius: 5%;
-    padding: 18px;
+    padding: 12px 20px;
     background-color: #09f;
 }
 
@@ -149,6 +155,8 @@ nav a:hover{
     background-color: #fff;
     color: #000;
 }
+
+
 
 
 /*Projects Section*/
@@ -191,6 +199,8 @@ nav a:hover{
     height: 100vh;
 
 }
+
+
 
 
 /*Footer Section*/
