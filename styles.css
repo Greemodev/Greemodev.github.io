@@ -111,7 +111,8 @@ nav a:hover{
 }
 
 .profile-img:hover{
-   border: none;
+   border: 7px solid #fff;
+   transition: .20s;
 }
 
 
