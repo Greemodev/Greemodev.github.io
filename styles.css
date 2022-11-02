@@ -127,7 +127,6 @@ nav a:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     gap: 5px;
 }
 
@@ -151,7 +150,7 @@ nav a:hover{
 .profile-about-a{
     text-decoration: none;
     border-radius: 5%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     background-color: #09f;
 }
 
@@ -160,6 +159,11 @@ nav a:hover{
     transition: .40s;
     background-color: #fff;
     color: #000;
+}
+
+.profile-social-div-img{
+    height: 12px;
+
 }
 
 
@@ -171,6 +175,7 @@ nav a:hover{
     border-top: 1px solid #09f;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0;
     height: 100vh;
@@ -202,7 +207,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 100vh;
+    height: 86vh;
 
 }
 
@@ -232,7 +237,7 @@ nav a:hover{
 .footer-div a {
     border-radius: 10%;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 .footer-div a:hover {
@@ -248,4 +253,9 @@ nav a:hover{
 .footer-div a svg:hover{
     fill: #fff;
     transition: 0.40s;
+}
+
+.footer-img{
+    padding-top: 7px;
+    height: 22px;
 }
