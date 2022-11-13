@@ -7,7 +7,7 @@
 }
 *{
     font-family: 'Overpass', sans-serif;
-    
+    color: #fff;
 }
 body{
     background-color: #010001;
@@ -16,7 +16,6 @@ body{
 /*Header*/
 
 nav{
-    z-index: 100000;
     border-bottom: 1px solid #fff;
     width: 100%;
     height: 78px;
@@ -98,28 +97,9 @@ nav a:hover{
     
 }
 
-.projects-container h1{
-    padding: 80px;
-}
-
 .profile-picture{
     margin-bottom: 20px;
 }
-
-
-.profile-img{
-    border: 4px solid #09f;
-    border-radius: 100%;
-    width: 228px;
-    height: 225px;    
-    
-}
-
-.profile-img:hover{
-   border: 7px solid #fff;
-   transition: .20s;
-}
-
 
 .profile-container h1{
     font-size: 50px;
@@ -153,7 +133,6 @@ nav a:hover{
 }
 
 .profile-about-a{
-    color: #fff;
     text-decoration: none;
     border-radius: 5%;
     padding: 10px 20px;
@@ -161,7 +140,7 @@ nav a:hover{
 }
 
 .profile-about-a:hover{
-    font-size: 16px;
+    font-size: 17px;
     transition: .40s;
     background-color: #fff;
     color: #000;
@@ -178,13 +157,98 @@ nav a:hover{
 /*Projects Section*/
 
 .projects-container{
-    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
-   
+.projects-container h1{
+    padding: 80px;
+}
+
+.articles-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 420px;
+    margin-bottom: 5px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.projects-container-article{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    border-radius: 3%;
+    box-sizing: border-box;
+}
+
+.projects-container-article p{
+    padding: 35px;
+    text-align: center;
+}
+
+
+.project-card{
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.project-card-img{
+
+    width: 450px;
+}
+
+
+.project-a:where(.img-a){
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    fill: #fff;
+}
+.img-a:hover{
+    opacity: 100;
+}
+
+.h2:where(.img-a){
+    text-align: center;
+    background-color: #000;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px;
+    border-radius: 90% 0% 90% 0%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.project-p:where(.img-a){
+    width: 320px;
+    color: #000;
+    box-sizing: border-box;
+    height: 180px;
+}
+
+.project-span:where(.img-a){
+    color: #000;
 }
 
 
@@ -194,7 +258,7 @@ nav a:hover{
 /*Skills Section*/
 
 .skills-container{
-    color: #fff;
+    border-top: 1px solid #09f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +272,6 @@ nav a:hover{
 /*About Section*/
 
 .about-container{
-    color: #fff;
     border-top: 1px solid #09f;
     display: flex;
     flex-direction: column;
@@ -225,7 +288,6 @@ nav a:hover{
 /*Footer Section*/
 
 .footer-container{
-    color: #fff;
     border-top: 1px solid #09f;
     text-align: center;
     padding: 25px;
