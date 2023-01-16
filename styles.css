@@ -7,25 +7,27 @@
 }
 *{
     font-family: 'Overpass', sans-serif;
-    color: #fff;
+    color: #EDF5E1;
 }
 body{
     background-color: #010001;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*Header*/
 
 nav{
-    border-bottom: 1px solid #fff;
+    margin-top: 10px;
+ 
     width: 100%;
-    height: 78px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(29, 28, 28, 0.6);
     position: fixed;
     top: 0;
-    color: #fff;
+    color: #EDF5E1;
     padding: 20px 10px;
     backdrop-filter: blur(8px);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
@@ -40,38 +42,41 @@ li{
 }
 
 li a{
-    margin-left: 40px;
+    padding-left: 40px;
 }
 
 nav a{
     font-weight: 800;
-    color: #fff;
+    color: #EDF5E1;
     letter-spacing: 2px;
     text-decoration: none;
 }
 
 nav a:hover{
     color: #09f;
-    font-size: 17px;
+    
     transition: 0.40s;
 }
 
 .nav-cv{
-    border-radius: 5%;
-    padding: 14px;
+    margin-left: 14px;
+    border-radius: 2%;
+    padding: 10px;
     background-color: #09f;
 }
 
 .nav-cv:hover{
 
     transition: .40s;
-    background-color: #fff;
+    background-color: #EDF5E1;
     color: #000;
 }
 
 .logo{
-    width: 80px;
+    width: 60px;
 }
+
+
 
 
 /*section h1, h2{
@@ -84,6 +89,14 @@ nav a:hover{
 
 /*Profile Section*/
 
+.nav-h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3%;
+
+}
+
 .profile-container{
     display: flex;
     flex-direction: column;
@@ -92,7 +105,7 @@ nav a:hover{
     margin: 0;
     padding: 0;
     height:100vh;
-    color: #fff;
+    color: #EDF5E1;
     text-align: center;
     
 }
@@ -128,7 +141,7 @@ nav a:hover{
 }
 
 .profile-social-div a svg:hover{
-    fill: #fff;
+    fill: #EDF5E1;
     transition: 0.40s;
 }
 
@@ -142,7 +155,7 @@ nav a:hover{
 .profile-about-a:hover{
     font-size: 17px;
     transition: .40s;
-    background-color: #fff;
+    background-color: #EDF5E1;
     color: #000;
 }
 
@@ -183,7 +196,7 @@ nav a:hover{
     flex-direction: column;
 
     align-items: center;
-    background-color: #fff;
+    background-color: #EDF5E1;
     width: 500px;
     height: 600px;
     border-radius: 3%;
@@ -210,7 +223,7 @@ nav a:hover{
 
 
 .project-a:where(.img-a){
-    color: #fff;
+    color: #EDF5E1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +236,7 @@ nav a:hover{
     font-size: 18px;
     text-decoration: none;
     font-weight: 600;
-    fill: #fff;
+    fill: #EDF5E1;
 }
 .img-a:hover{
     opacity: 100;
@@ -233,7 +246,7 @@ nav a:hover{
     text-align: center;
     background-color: #000;
     font-weight: 500;
-    color: #fff;
+    color: #EDF5E1;
     padding: 10px;
     border-radius: 90% 0% 90% 0%;
     box-sizing: border-box;
@@ -267,6 +280,20 @@ nav a:hover{
     height: 100vh;
 
 }
+
+.skills-co{
+    display: flex;
+}
+
+.skills-fi{
+    margin-top: 80px;
+    padding: 80px;
+}
+
+.skills-fi:hover{
+    color: #09f;
+}
+
 
 
 /*About Section*/
@@ -313,7 +340,7 @@ nav a:hover{
 
 .footer-div a:hover {
     color: #09f;
-    font-size: 10px;
+ 
     transition: 0.10s;
 }
 
@@ -322,7 +349,7 @@ nav a:hover{
 }
 
 .footer-div a svg:hover{
-    fill: #fff;
+    fill: #EDF5E1;
     transition: 0.40s;
 }
 
