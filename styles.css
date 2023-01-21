@@ -170,7 +170,7 @@ nav a:hover{
 /*Projects Section*/
 
 .projects-container{
-    background-color: #09f;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -182,7 +182,7 @@ nav a:hover{
 
 
 .articles-container{
-    background-color: aquamarine;
+
     display: flex;
     width: 1000px;
     max-width: fit-content;
@@ -278,7 +278,6 @@ nav a:hover{
 
 .skills-container{
     margin-top: 200px;
-
     border-top: 1px solid #09f;
     display: flex;
     flex-direction: column;
