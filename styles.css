@@ -167,6 +167,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     margin-left: auto;
+    margin-bottom: 180px;
 }
 
 
@@ -174,7 +175,7 @@ nav a:hover{
 .articles-container{
 
     display: flex;
-    width: 1000px;
+
     max-width: fit-content;
     flex-wrap: wrap;
     align-items: center;
@@ -188,8 +189,8 @@ nav a:hover{
     flex-direction: column;
     align-items: center;
     background-color: #EDF5E1;
-    height: 600px;
-    width: 380px;
+    height: 500px;
+
     border-radius: 3%;
     box-sizing: border-box;
 }
@@ -212,7 +213,7 @@ nav a:hover{
 }
 
 .project-card-img{
-    width: 380px;
+    width: 320px;
     
 }
 
@@ -245,7 +246,7 @@ nav a:hover{
     font-weight: 500;
     color: #EDF5E1;
     padding: 10px;
-    border-radius: 90% 0% 90% 0%;
+    border-radius: 75% 0% 85% 0%;
     box-sizing: border-box;
     width: 100%;
 }
@@ -265,21 +266,22 @@ nav a:hover{
 
 
 
+
+
 /*Skills Section*/
 
 .logok{
-    height: 100px;
-     width: 100px;
+    height: 90px;
+     width: auto;
  }
 
  .skills-container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: auto;
+    padding-top: 90px;
 
 }
 
@@ -287,13 +289,13 @@ nav a:hover{
     flex-wrap: wrap;
     max-width: 850px;
     display: flex;
-    padding-left: 30px;
+    margin-left: 100px;
 }
 
 .skills-fi{
     margin: 20px;
-    width: 220px;
-    height: 220px;
+    width: 190px;
+    height: 190px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -344,6 +346,8 @@ nav a:hover{
   }  
 
 
+
+
 /*About Section*/
 
 .about-container{
@@ -354,6 +358,8 @@ nav a:hover{
     margin: 0;
     height: 86vh;
 }
+
+
 
 
 /*Footer Section*/
@@ -400,148 +406,5 @@ nav a:hover{
 
 
 /*Responsive*/
-@media only screen and (max-width: 870px){
-    .skills-fi{
-        width: 150px;
-        height: 150px;
-    }
-
-}
-
-@media only screen and (max-width: 622px){
-    .skills-fi{
-        width: 120px;
-        height: 120px;
-    }
-
-    .logok{
-        width: 70px;
-        height: 70px;
-    }
-
-}
-
-@media only screen and (max-width: 352px){
-    .skills-fi{
-        width: 120px;
-        height: 120px;
-    }
-
-    .logok{
-        width: 70px;
-        height: 70px;
-    }
-
-}
-
-@media only screen and (max-width: 388px){
-    .father{
-        width: 100%;
-    }
-
-    .skills-fi{
-        padding: 2px;
-        margin: 2px;
-    }
-}
-
-@media only screen and (max-width: 813px){
-
-    body{
-        margin: 0;
-        padding: 0;
-    }
-
-    .skills-fi{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-}
-
-@media only screen and (max-width: 780px){
-
-    .father{
-        width: 100%;
-    }
-
-    nav{
-        margin: 0;
-        width: 110%;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: fit-content;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (max-width: 770px){
-    .father{
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 741px){
-
-    .father{
-        width: 100%;
-    }
-    nav ul li{
-        display: inline-block;
-        padding-top: 20px;
-        
-    }
-
-}
-
-@media only screen and (max-width: 775px){
-    .father{
-        width: 100%;
-    }
-
-    .profile-container{
-        width: 100%;
-    }
-
-    nav{
-        margin: 0;
-        width: 110%;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        height: fit-content;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-
-}
-
-@media only screen and (max-width: 355px){
-    .skills-fi{
-        margin: 0px;
-        padding: 0px;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-
-    .skills-container{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-top: 100px;
-    }
-
-    .main-h1{
-        display: none;
-    }
-}
-
 
 
