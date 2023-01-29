@@ -17,6 +17,12 @@ body{
     box-sizing: border-box;
 }
 
+.main-h1:hover{
+    color: #09f;
+}
+
+
+
 /*Header*/
 
 nav{
@@ -77,6 +83,8 @@ nav a:hover{
 .logo{
     width: 60px;
 }
+
+
 
 
 /*Profile Section*/
@@ -217,7 +225,6 @@ nav a:hover{
     
 }
 
-
 .project-a:where(.img-a){
     color: #EDF5E1;
     display: flex;
@@ -262,7 +269,9 @@ nav a:hover{
     color: #000;
 }
 
-
+.p-s{
+    color: #09f;
+}
 
 
 
@@ -283,6 +292,10 @@ nav a:hover{
     width: auto;
     padding-top: 90px;
 
+}
+
+.skills-container h1{
+    padding: 80px;
 }
 
 .skills-co{
@@ -348,6 +361,7 @@ nav a:hover{
 
 
 
+
 /*About Section*/
 
 .about-container{
@@ -357,7 +371,9 @@ nav a:hover{
     align-items: center;
     margin: 0;
     height: 86vh;
+
 }
+
 
 
 
@@ -365,6 +381,7 @@ nav a:hover{
 /*Footer Section*/
 
 .footer-container{
+
     text-align: center;
     padding: 25px;
 }
@@ -403,6 +420,7 @@ nav a:hover{
     padding-top: 7px;
     height: 22px;
 }
+
 
 
 /*Responsive*/
