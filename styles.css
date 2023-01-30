@@ -237,6 +237,13 @@ video{
     box-sizing: border-box;
 }
 
+.projects-container-article:hover{
+    transition: 1s;
+    border: 3px solid #09f;
+    box-shadow: #EDF5E1;
+
+}
+
 .projects-container h1{
     padding: 80px;
 }
@@ -307,6 +314,10 @@ video{
     color: #09f;
 }
 
+.p-s:hover{
+    color: #EDF5E1;
+}
+
 .p-sp{
     color: #EDF5E1;
     text-decoration: underline;
@@ -341,11 +352,14 @@ video{
 }
 
 .skills-co{
+    background-color: rgba(29, 28, 28, 0.6);
     flex-wrap: wrap;
     max-width: 850px;
     display: flex;
-    margin-left: 100px;
+    padding-left: 70px;
 }
+
+
 
 .skills-fi{
     margin: 20px;
@@ -358,6 +372,12 @@ video{
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
+}
+
+.skills-fi:hover{
+    transition: 2s;
+    border: 1px solid #09f;
+    box-shadow: #EDF5E1;
 }
 
 
@@ -394,8 +414,7 @@ video{
   .skills-fi::after {
     content: '';
     position: absolute;
-    background: #252225
-    ;
+    background: #252225;
     inset: 2px;
     border-radius: 15px;
   }  
@@ -415,6 +434,30 @@ video{
     height: 86vh;
 
 }
+
+.a-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(29, 28, 28, 0.6);
+    align-items: center;
+    
+}
+
+.a-div{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.b-div{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding: 60px;
+    text-align: center;
+}
+
+
+
 
 
 
