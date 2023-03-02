@@ -140,7 +140,7 @@ nav ul li{
         border-radius: 3%;
         padding: 10px 0px ;
         display: block;
-        margin: 100px 10px;
+        margin: 80px 10px;
         line-height: 25px;
     }
 
@@ -159,8 +159,6 @@ nav ul li{
     .about-container{
         padding-top: 200px;
     }
-
-    
 }
 
 
