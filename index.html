@@ -15,38 +15,53 @@
 <body>
    
     <div class="father">
-        
+        <div class="menu-bar">
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
             </label>
 
-
-        
             <a href="/#home"><img class="logo" src="/img/ppicon.png" alt="logoimg"></a>
-            <ul>
+
+            <ul id="ul">
+                
                 <li>
-                    <a class="active" href="#home">Home</a>
-                </li>
-                <li>
-                    <a class="active" href="#projects"> My Projects</a>
-                </li>
-                <li>
-                    <a class="active" href="#skills"> My Skills</a>
+                    <a id="active" href="#home">Home</a>
+
+                    <div class="sub">    
+                        <ul>
+                            <li><a href="#home">Software</a></li>
+                            <li><a href="#home">Web</a></li>
+    
+                        </ul>
+    
+                    </div>
+                   
                 </li>
 
                 <li>
-                    <a class="active" href="#about"> About me</a>
+                    <a id="active" href="#projects"> My Projects</a>
                 </li>
 
                 <li>
-                    <a class="active" class="nav-cv" href="/img/JIMMY PAZ FullStack Developer-CV.pdf" download="JIMMY PAZ FullStack Developer-CV.pdf">Download my CV</a>
+                    <a id="active" href="#skills"> My Skills</a>
+
+
                 </li>
+
+                <li>
+                    <a id="active" href="#about"> About me</a>
+                </li>
+
+                <li>
+                    <a id="active" class="nav-cv" href="/img/JIMMY PAZ FullStack Developer-CV.pdf" download="JIMMY PAZ FullStack Developer-CV.pdf">Download my CV</a>
+                </li>
+            
             </ul>
 
         </nav>
-
+      </div>
 
         <div id="home" class="profile-container">
             <div class="home1">
@@ -59,7 +74,7 @@
             </div>
             <a class="profile-about-a" href="#projects">Projects <img class="profile-social-div-img" src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/rocket_1f680.gif" alt="rocket"></a>
             </div>
-            <video muted autoplay loop>
+            <video muted >
                 <source src="/img/backspore.mp4" type="video/mp4">
 
             </video>
@@ -90,7 +105,7 @@
                     </a>
                 </div>
     
-                <p class="project-p img-a">This is a Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatum, error expedita eum soluta distinctio id? Unde voluptatum atque voluptatibus harum temporibus</p>
+                <p class="project-p img-a">This is a Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus provident nihil dignissimos dicta, placeat qui recusandae voluptatum distinctio reiciendis asperiores dol</p>
                 <span class="project-span img-a">Java, SrpingBoot, Ionic, Docker, GCS</span>
     
             </section>
@@ -150,16 +165,6 @@
             </section>
 
         </section>
-
-
-
-        <video muted autoplay loop>
-            <source src="/img/backspore.mp4" type="video/mp4">
-
-        </video>
-        <div class="cap"></div>
-
-
     </div>
 
 
