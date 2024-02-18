@@ -383,6 +383,8 @@ video{
     height: 180px;
 }
 
+
+
 .project-span:where(.img-a){
     color: #000;
 }
