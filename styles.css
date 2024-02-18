@@ -310,7 +310,7 @@ video{
     flex-direction: column;
     align-items: center;
     background-color: #EDF5E1;
-    height: 500px;
+    height: 550px;
     border-radius: 3%;
     box-sizing: border-box;
 }
@@ -361,6 +361,8 @@ video{
     fill: #EDF5E1;
     background-color: rgba(29, 28, 28, 0.6);
 }
+
+
 .img-a:hover{
     opacity: 100;
 
